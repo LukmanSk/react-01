@@ -1,0 +1,63 @@
+.cta-darkmode{
+    display: flex;
+    gap: .5em;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    }
+
+
+.c-btn{
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    background: rgb(224, 11, 11);
+    cursor: pointer;
+
+
+}
+.c-btn:hover{
+    filter: brightness(150%);
+}
+
+.c-green{
+    background: green;
+  
+}
+
+.c-blue{
+    background: rgb(38, 38, 224);
+}
+
+
+.nav-danger{
+background: #971b1b ;
+  
+}
+.nav-success{
+background: #268b26 ;
+  
+}
+.nav-primary{
+background: #4040bb ;
+  
+}
+
+.textarea-danger{
+    background: rgb(104 , 7, 7) !important;
+}
+
+.textarea-success{
+    background: rgb(37 ,86, 23) !important;
+}
+.textarea-primary{
+    background: rgb(19, 0, 106) !important;
+}
+
+
+
+
+@media (min-width:946px){
+.cta-darkmode{
+    margin-bottom: 0;
+}
+}
